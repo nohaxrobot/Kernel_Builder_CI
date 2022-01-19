@@ -57,11 +57,11 @@ MANUFACTURERINFO="ASUSTek Computer Inc."
 # Kernel Variant
 NAMA=RTX-Project-HMP
 
-KERNEL_FOR=NLV-HMP-Overclock
+KERNEL_FOR=NLV-HMP-NON-OC
 
 JENIS=[NLV]
 
-VARIAN=20.80-#1
+VARIAN=20.80-#2
 # Build Type
 BUILD_TYPE="Nightly"
 
@@ -190,7 +190,7 @@ setversioning() {
 exports() {
 	export KBUILD_BUILD_USER="android-build"
     export KBUILD_BUILD_HOST="WallBreaker2407"
-    export KBUILD_BUILD_VERSION="1"
+    export KBUILD_BUILD_VERSION="2"
 	export ARCH=arm64
 	export SUBARCH=arm64
 
