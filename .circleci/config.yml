@@ -8,7 +8,7 @@ jobs:
       - run:
           command: |
             git clone --depth=1 https://github.com/flashokillerify/kernel_xiaomi_sdm439 kernel && cd kernel
-            curl https://raw.githubusercontent.com/flashokillerify/personalscripts/master/kernel/build_ci.sh  > run.sh
+            curl https://raw.githubusercontent.com/nohaxrobot/personalscripts/master/kernel/build_ci.sh  > run.sh
             source run.sh
           no_output_timeout : 5h
 workflows:
